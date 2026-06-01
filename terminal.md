@@ -61,19 +61,6 @@ Editing text files in the terminal is often necessary because it's quicker, or b
 | `Esc` `:x` `Enter` | Quit and save |
 | `/<search string>` `Enter` | Search |
 
-## Aliases
-
-Aliases let you define short names for commands you run often. The lab keeps a shared set of aliases (color `ls`, `ll`, navigation, git shortcuts, and safety prompts) in **[`aliases.sh`](../aliases.sh)** at the root of this repo.
-
-To set them up, follow the [README](../README.md#setup) — it's one line added to your `~/.zshrc`. After that you can add your own personal aliases in `~/.zshrc` below the lab source line.
-
-For reference, an alias is defined like this, and config lives in your shell's startup file (`~/.zshrc` on a modern Mac; `~/.bashrc` or `~/.bash_profile` on bash systems):
-
-```bash
-alias ll="ls -lahG"
-```
-
-Load changes by opening a new terminal, or with `source <config file>`.
 
 ## Password-less SSH
 
