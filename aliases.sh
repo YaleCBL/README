@@ -3,12 +3,10 @@
 # See README.md for setup
 
 # ls / listing
-export CLICOLOR=1            # enable color for ls (BSD/macOS)
-alias ls='ls -G'            # color
-alias ll='ls -lhG'          # long format, human-readable sizes
-alias la='ls -lahG'         # ll, plus hidden dotfiles
-alias l='ls -CFG'           # compact columns, mark dirs/links
-alias lt='ls -lhGtr'        # sort by time, newest last
+export CLICOLOR=1           # enable color for ls (BSD/macOS)
+alias ll='ls -lahG'          # long format, human-readable sizes
+alias l='ls -CaFG'           # compact columns, mark dirs/links
+alias lt='ls -lahGtr'        # sort by time, newest last
 
 # navigation
 alias ..='cd ..'
