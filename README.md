@@ -3,6 +3,7 @@
 Welcome to the Computational Biomechanics Laboratory at Yale! This repository contains useful lab resources.
 
 ## Contents
+- [Lab Handbook for general guidance](handbook.md)
 - [Setting up a new computer to work in the lab](setup.md)
 - [Using the terminal](terminal.md)
 - [Using Git and GitHub](git.md)

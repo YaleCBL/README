@@ -84,7 +84,7 @@ In general, you should expect the lab to open-source the code you develop during
 
 **Cluster Usage:** Our lab has high-performance computing resources on [Bouchet](https://docs.ycrc.yale.edu/clusters/bouchet/). You can [request an account here](https://research.computing.yale.edu/support/hpc/account-request). Please respect others' needs when requesting compute nodes on the cluster. In general, you should use your local computer to develop and debug code, and clusters only for larger "production" runs for publishable results. Be mindful that these resources are shared with other lab members. Please note that a cluster's scratch space is purged regularly. You should not store important simulations or data on the scratch disk, or you risk significant data loss.
 
-**Backups:** Computers die unexpectedly. You must back up all data on your computer. Install any of the [Yale supported services](https://yale.service-now.com/it?id=service_offering&sys_id=ac684dcd6fbb31007ee2abcf9f3ee4f9) as soon as you get your computer.
+**Backups:** Computers die unexpectedly. You must back up all data on your computer. Install any of the [Yale supported services](https://yale.service-now.com/it?id=service_offering&sys_id=ac684dcd6fbb31007ee2abcf9f3ee4f9) as soon as you get your computer ([see the setup guide](setup.md/#backup)).
 
 ## Conferences
 
